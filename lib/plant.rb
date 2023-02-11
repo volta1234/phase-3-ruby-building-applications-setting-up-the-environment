@@ -1,4 +1,4 @@
-class Plant
+module Plant
   attr_accessor :garden, :name
 
   @@all = []

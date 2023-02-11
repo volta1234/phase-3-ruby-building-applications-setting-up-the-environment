@@ -1,4 +1,7 @@
-class Garden
+require_relative './plant'
+
+module Garden
+  extend Plant
   attr_accessor :name
 
   def initialize(name:)
